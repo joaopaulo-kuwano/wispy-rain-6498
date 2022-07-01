@@ -1,18 +1,39 @@
 {
   "name": "wispy-rain-6498",
   "version": "1.0.0",
-  "description": "",
+  "description": "curiosidades torneio de candidatos 2022",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pgn-parser": "^2.2.0"
+    "pgn-parser": "^2.2.0",
+    "@chakra-ui/icons": "^2.0.1",
+    "@chakra-ui/react": "^2.1.2",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@reduxjs/toolkit": "^1.8.2",
+    "framer-motion": "^6.3.4",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
+    "react-input-mask": "^2.0.4",
+    "react-redux": "^8.0.2"
   },
   "devDependencies": {
-    "typescript": "^4.7.4"
+    "@types/node": "17.0.35",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.5",
+    "@types/react-input-mask": "^3.0.1",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "typescript": "4.7.2"
   }
 }
